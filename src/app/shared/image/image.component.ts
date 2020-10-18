@@ -20,7 +20,7 @@ export class ImageComponent implements OnInit, AfterViewInit {
   @ViewChild('image') image: ElementRef<HTMLImageElement>;
 
   loaded: boolean = false;
-  img: string = '../../../assets/images/blank.png';
+  img: string = 'assets/images/blank.png';
 
   constructor() {}
 
